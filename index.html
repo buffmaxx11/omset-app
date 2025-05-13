@@ -15,14 +15,21 @@
     <label for="jam">Jam Sesi:</label>
     <input type="text" id="jam" name="jam" placeholder="Contoh: 07.00-09.30" required>
 
-    <label for="akun">Nama Akun Host:</label>
-    <input type="text" id="akun" name="akun" required>
+    <label for="akun">Nama Akun Shopee:</label>
+    <select id="akun" name="akun" required>
+      <option value="akun" name="akun" required>
+        <option value="">-- Pilih Akun Shopee --</option>
+      <option value="Fathercurles">Akun1</option>
+      <option value="HPzone13">Akun2</option>
+      <option value="Zerlinacelina">Akun3</option>
+      <option value="Jhonaccesories">Akun4</option>
+    </select>
 
     <label for="omset">Jumlah Omset:</label>
     <input type="number" id="omset" name="omset" required>
 
     <label for="foto">Upload Foto Bukti Live:</label>
-    <input type="file" id="foto" name="foto" accept="image/*" required>
+    <input type="file" id="foto" name="foto" accept="image/*">
 
     <button type="submit">Kirim</button>
   </form>
